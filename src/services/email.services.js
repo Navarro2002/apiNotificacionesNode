@@ -11,12 +11,12 @@ const transporter = nodemailer.createTransport({
   }
 });
 
-const enviarCorreo = async ({ para, asunto, mensaje }) => {
+const enviarCorreo = async ({ para, asunto, cuerpo }) => {
   const mailOptions = {
     from: `"Notificaciones" <${process.env.EMAIL_USER}>`,
     to: para,
     subject: asunto,
-    text: mensaje
+    text: cuerpo
   };
 
   return transporter.sendMail(mailOptions);
