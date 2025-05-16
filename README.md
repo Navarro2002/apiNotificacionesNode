@@ -1,4 +1,4 @@
-# SERVIDOR TCP CON SERVICIO DE NOTICIFACION 
+# SERVIDOR TCP CON SERVICIO DE NOTIFICACION 
 # Guia de instalacion 
 
 ## Guía de instalación
